@@ -36,7 +36,6 @@ class ContactPage {
   submitContact(name, email, phone, subject, message){
     this.typeName(name);
     this.typeEmail(email);
-    this.typePhone(phone);
     this.typeSubject(subject);
     this.typeMessage(message);
     this.clickSend();
